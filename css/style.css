@@ -1,4 +1,26 @@
 /*-- Global Styles --*/
 :root {
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+body, section, div, article, aside, h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
 }
 /*-- Document Styles --*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #DDD;
+  padding: 1em;
+}
+nav a {
+  color: #DDD;
+}
+.slideshow {
+  background-color: #CCC;
+  width: 100%;
+}
